@@ -2,6 +2,12 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
+import SustainableLiving from './components/sustainable living/SustainableLiving';
+import Environment from './components/environment/Environment';
+import GreenEnergy from './components/green energy/GreenEnergy';
+import Blog from './components/blog/Blog';
+import Resources from './components/resources/Resources';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -11,6 +17,24 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Home />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <SustainableLiving />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Environment />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <GreenEnergy />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Blog />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Resources />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Contact />
       </ErrorBoundary>
     </div>
   );
