@@ -9,16 +9,6 @@ function Home () {
                     <div class="logo">
                         <img src="green-africa-logo.png" alt="Green Africa Logo"/>
                     </div>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Sustainable Living</a></li>
-                            <li><a href="#">Environmental Conservation</a></li>
-                            <li><a href="#">Green Energy</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
                 </header>
                 <section class="hero">
                     <div class="hero-content">
@@ -62,26 +52,6 @@ function Home () {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus venenatis ipsum, sed bibendum velit mollis ac.</p>
                     </div>
                 </section>
-                <footer>
-                    <div class="footer-content">
-                        <div class="logo">
-                            <img src="green-africa-logo.png" alt="Green Africa Logo"/>
-                        </div>
-                        <nav>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Sustainable Living</a></li>
-                                <li><a href="#">Environmental Conservation</a></li>
-                                <li><a href="#">Green Energy</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="copy">
-                        <p>© 2023 Green Africa. All rights reserved.</p>
-                    </div>
-                </footer>
             </div>
         </div>
     );

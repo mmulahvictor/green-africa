@@ -8,35 +8,38 @@ import GreenEnergy from './components/green energy/GreenEnergy';
 import Blog from './components/blog/Blog';
 import Resources from './components/resources/Resources';
 import Contact from './components/contact/Contact';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='app'>
-      <ErrorBoundary>
-        <Navbar />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Home />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <SustainableLiving />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Environment />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <GreenEnergy />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Blog />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Resources />
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Contact />
-      </ErrorBoundary>
-    </div>
+      <div className='app'>
+        <ErrorBoundary>
+          <Navbar />
+        </ErrorBoundary>
+        <Routes>
+          <ErrorBoundary>
+            <Route path="/" element={<Home />} />
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Route path="/sustainableliving" element={<SustainableLiving />} />
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Route path="/environment" element={<Environment />} />
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Route path="/greenenergy" element={<GreenEnergy />} />
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Route path="/blog" element={<Blog />} />
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Route path="/resources" element={<Resources />} />
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Route path="/contact" element={<Contact />} />
+          </ErrorBoundary>
+        </Routes>
+      </div>
   );
 }
 
