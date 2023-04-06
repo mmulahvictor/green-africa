@@ -14,7 +14,7 @@ function Home () {
                     <div class="hero-content">
                         <h1>Green Africa</h1>
                         <h2>Promoting Sustainable Living, Environmental Conservation, and Green Energy</h2>
-                        <a href="#" class="cta-button">Learn More</a>
+                        <a href="google.com" class="cta-button">Learn More</a>
                     </div>
                 </section>
                 <section class="categories">
@@ -37,17 +37,17 @@ function Home () {
                 <section class="blog">
                     <h2>Latest Blog Posts</h2>
                     <div class="post">
-                        <img src="blog-post-image.jpg" alt="Blog Post Image"/>
+                        <img src="blog-post-image.jpg" alt="Blog Post"/>
                             <h3>Blog Post Title</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus venenatis ipsum, sed bibendum velit mollis ac.</p>
                     </div>
                     <div class="post">
-                        <img src="blog-post-image.jpg" alt="Blog Post Image"/>
+                        <img src="blog-post-image.jpg" alt="Blog Post"/>
                             <h3>Blog Post Title</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus venenatis ipsum, sed bibendum velit mollis ac.</p>
                     </div>
                     <div class="post">
-                        <img src="blog-post-image.jpg" alt="Blog Post Image"/>
+                        <img src="blog-post-image.jpg" alt="Blog Post"/>
                             <h3>Blog Post Title</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus venenatis ipsum, sed bibendum velit mollis ac.</p>
                     </div>

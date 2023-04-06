@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css';
-import { Link, Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -11,8 +11,8 @@ function Navbar() {
         <li><Link to='/sustainable-living'>Sustainable Living</Link></li>
         <li><Link to='/environment'>Environment</Link></li>
         <li><Link to='/green-energy'>Green Energy</Link></li>
-        <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/resources'>Resources</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
       </ul>
     </div>

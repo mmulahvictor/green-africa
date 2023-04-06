@@ -13,58 +13,58 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
       <div className='app'>
-        <ErrorBoundary>
+        {/* <ErrorBoundary> */}
           <Navbar />
-        </ErrorBoundary>
+        {/* </ErrorBoundary> */}
         <Routes>
-          <ErrorBoundary>
+          {/* <ErrorBoundary> */}
             <Route path="/" element={<Home />} />
-          </ErrorBoundary>
-          <ErrorBoundary>
+          {/* </ErrorBoundary> */}
+          {/* <ErrorBoundary> */}
             <Route path="/sustainableliving" element={<SustainableLiving />} />
-          </ErrorBoundary>
-          <ErrorBoundary>
+          {/* </ErrorBoundary> */}
+          {/* <ErrorBoundary> */}
             <Route path="/environment" element={<Environment />} />
-          </ErrorBoundary>
-          <ErrorBoundary>
+          {/* </ErrorBoundary> */}
+          {/* <ErrorBoundary> */}
             <Route path="/greenenergy" element={<GreenEnergy />} />
-          </ErrorBoundary>
-          <ErrorBoundary>
+          {/* </ErrorBoundary> */}
+          {/* <ErrorBoundary> */}
             <Route path="/blog" element={<Blog />} />
-          </ErrorBoundary>
-          <ErrorBoundary>
+          {/* </ErrorBoundary> */}
+          {/* <ErrorBoundary> */}
             <Route path="/resources" element={<Resources />} />
-          </ErrorBoundary>
-          <ErrorBoundary>
+          {/* </ErrorBoundary> */}
+          {/* <ErrorBoundary> */}
             <Route path="/contact" element={<Contact />} />
-          </ErrorBoundary>
+          {/* </ErrorBoundary> */}
         </Routes>
       </div>
   );
 }
 
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { hasError: false };
-  }
+// class ErrorBoundary extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = { hasError: false };
+//   }
 
-  static getDerivedStateFromError(error) {
-    return { hasError: true };
-  }
+//   static getDerivedStateFromError(error) {
+//     return { hasError: true };
+//   }
 
-  componentDidCatch(error, errorInfo) {
-    console.error(error, errorInfo);
-  }
+//   componentDidCatch(error, errorInfo) {
+//     console.error(error, errorInfo);
+//   }
 
-  render() {
-    if (this.state.hasError) {
-      return <div>Something went wrong.</div>;
-    }
+//   render() {
+//     if (this.state.hasError) {
+//       return <div>Something went wrong.</div>;
+//     }
 
-    return this.props.children;
-  }
-}
+//     return this.props.children;
+//   }
+// }
 
 export default App;
 
