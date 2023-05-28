@@ -9,7 +9,7 @@ const SustainableLiving = () => {
       title: '10 Ways to Reduce Your Carbon Footprint',
       author: 'Jane Doe',
       date: 'March 1, 2023',
-      image: '/images/carbon-footprint.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQqOdUuvPiMdcEhg7m2yJ-gbVTcfgBsbSibw&usqp=CAU',
       excerpt: 'Reducing your carbon footprint is one of the most important things you can do to help combat climate change. Here are 10 easy ways to get started.',
       url: '/articles/10-ways-to-reduce-your-carbon-footprint'
     }
@@ -19,7 +19,7 @@ const SustainableLiving = () => {
   const DIYProjects = [
     {
       title: 'DIY Mason Jar Herb Garden',
-      image: '/images/mason-jar-garden.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj2hLj1VdEq-x54jqXapQ7X5ojnZDBSwBQ4Q&usqp=CAU',
       description: 'Learn how to create your own indoor herb garden using mason jars and a few simple supplies.',
       url: '/diy/mason-jar-herb-garden'
     }
@@ -29,6 +29,7 @@ const SustainableLiving = () => {
   const tips = [
     {
       title: '5 Tips for a More Sustainable Wardrobe',
+      image: '      https://www.pexels.com/photo/panoramic-photo-of-bushes-near-pond-158361/',
       author: 'John Smith',
       date: 'February 15, 2023',
       excerpt: 'From buying secondhand to choosing sustainable fabrics, these tips will help you create a more eco-friendly wardrobe.',

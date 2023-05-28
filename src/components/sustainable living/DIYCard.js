@@ -1,15 +1,15 @@
 // DIYCard.js
 import React from "react";
-// import './DIYcard.css'
+import './DIYcard.css' 
 
-const DIYCard = ({ title, image, description, link }) => {
+const DIYCard = ({ project }) => {
   return (
     <div className="card">
-      <img src={image} alt={title} />
+      <img src={project.image} alt={project.title} />
       <div className="card-body">
-        <h3>{title}</h3>
-        <p>{description}</p>
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <h3>{project.title}</h3>
+        <p>{project.description}</p>
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
           Learn More
         </a>
       </div>

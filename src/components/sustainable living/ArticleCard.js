@@ -2,10 +2,10 @@
 import React from "react";
 import './ArticleCard.css'
 
-const ArticleCard = ({ title, image, description, link, article }) => {
+const ArticleCard = ({ article }) => {
   return (
     <div className="card">
-      <img src={article.image} alt={title} />
+      <img src={article.image} alt={article.title} />
       <div className="card-body">
         <h3>{article.title}</h3>
         <p>{article.description}</p>
